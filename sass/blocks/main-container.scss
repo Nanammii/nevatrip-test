@@ -27,6 +27,10 @@
   display: flex;
   align-items: center;
   gap: 20px;
+
+  &--text {
+    flex-direction: column;
+  }
 }
 
 .main-container__select {
