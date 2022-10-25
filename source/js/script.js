@@ -73,11 +73,6 @@ moreToggle.addEventListener('click', function (event) {
 // moreBut();
 
 
-// test 2
-
-const routeMain = 700;
-const routeABA = 1200;
-const timeTravel = 50;
 
 
 

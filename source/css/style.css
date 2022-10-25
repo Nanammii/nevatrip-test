@@ -94,6 +94,9 @@ img {
   align-items: center;
   gap: 20px;
 }
+.main-container__wrapp--text {
+  flex-direction: column;
+}
 
 .main-container__select {
   width: 50%;
