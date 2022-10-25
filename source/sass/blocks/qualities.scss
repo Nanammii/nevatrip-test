@@ -1,0 +1,95 @@
+.qualities {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  @media (min-width: $desktop-width) {
+    gap: 16px;
+  }
+}
+
+.qualities__item {
+  position: relative;
+  padding: 0 35px;
+
+  @media (min-width: $desktop-width) {
+    padding: 0 30px;
+    font-size: 18px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 16px;
+    height: 12px;
+    background: url("../img/icons/check-icon.svg") no-repeat center;
+
+    @media (min-width: $desktop-width) {
+      top: 3px;
+    }
+  }
+
+  &--time {
+    padding: 0;
+
+    &::before {
+      content: none;
+    }
+  }
+
+  &--time-tour {
+    display: flex;
+    //max-height: 30px;
+    overflow-y: hidden;
+  }
+
+  &--visible {
+    display: none;
+  }
+}
+
+.qualities__text {
+  color: #4b4b4b;
+  flex-basis: 42%;
+}
+
+.qualities__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 15px 0 0;
+  list-style: none;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 0 0 9px;
+    flex-basis: 58%;
+  }
+}
+
+.qualities__start-tour {
+  display: block;
+  padding: 2px 14px;
+  border-radius: 11px;
+  color: #343434;
+  background-color: #d9e8ff;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #6ba6ff;
+    color: $white-color;
+    box-shadow: 0 2px 4px 0 #00000040;
+  }
+
+  &:active {
+    opacity: 0.3;
+    box-shadow: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 5px 16px;
+    font-size: 16px;
+  }
+}

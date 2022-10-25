@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Тестовое задание Nevatrip</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page__body">
+<main class="main-container container">
+  <form class="main-container__form" action="#" method="post">
+    <div class="main-container__wrapp">
+      <label class="main-container__label" for="route">Выберите направление</label>
+      <select class="main-container__select" name="route" id="route">
+        <option value="из A в B">из A в B</option>
+        <option value="из B в A">из B в A</option>
+        <option value="из A в B и обратно в А">из A в B и обратно в А</option>
+      </select>
+    </div>
+
+    <div class="main-container__wrapp">
+      <label class="main-container__label" for="time">Выберите время</label>
+      <select class="main-container__select" name="time" id="time">
+        <option value="18:00(из A в B)">18:00 (из A в B)</option>
+        <option value="18:30(из A в B)">18:30 (из A в B)</option>
+        <option value="18:45(из A в B)">18:45 (из A в B)</option>
+        <option value="19:00(из A в B)">19:00 (из A в B)</option>
+        <option value="19:15(из A в B)">19:15 (из A в B)</option>
+        <option value="21:00(из A в B)">21:00 (из A в B)</option>
+        <option value="18:30(из B в A)">18:30 (из B в A)</option>
+        <option value="18:45(из B в A)">18:45 (из B в A)</option>
+        <option value="19:00(из B в A)">19:00 (из B в A)</option>
+        <option value="19:15(из B в A)">19:15 (из B в A)</option>
+        <option value="19:35(из B в A)">19:35 (из B в A)</option>
+        <option value="21:50(из B в A)">21:50 (из B в A)</option>
+        <option value="21:55(из B в A)">21:55 (из B в A)</option>
+      </select>
+    </div>
+
+    <div class="main-container__wrapp">
+      <label class="main-container__label" for="num">Количество билетов</label>
+      <input class="main-container__input" type="text" id="num">
+      <button class="main-container__button button" type="button">Посчитать</button>
+    </div>
+  </form>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
