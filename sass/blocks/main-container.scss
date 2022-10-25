@@ -1,0 +1,47 @@
+.main-container__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0;
+  padding: 26px 0;
+  list-style-type: none;
+
+  @media (min-width: $desktop-width) {
+    padding: 67px 0;
+    gap: 63px;
+  }
+}
+
+.main-container__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 50px;
+  font-size: 18px;
+}
+
+.main-container__wrapp {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-container__select {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.main-container__input {
+  padding: 10px;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+
+.main-container__button {
+  padding: 10px 30px;
+}

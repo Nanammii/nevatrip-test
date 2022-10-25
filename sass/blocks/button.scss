@@ -1,0 +1,35 @@
+.button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  border: 0.5px solid #cba500;
+  color: #404040;
+  background-color: #fed74b;
+  cursor: pointer;
+
+  @media (min-width: $desktop-width) {
+    background-color: #ffd83c;
+    border: none;
+    border-radius: 23px;
+    font-size: 18px;
+    color: #292929;
+  }
+
+  &:hover {
+    background-color: #dddddd;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #d3d3d3;
+  }
+
+  &:disabled {
+    color: $white-color;
+    background-color: #000000;
+  }
+}
