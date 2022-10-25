@@ -12,7 +12,7 @@
 4. JavaScript
 
 
-[Demo preview]()
+[Demo preview](https://nanammii.github.io/nevatrip-test/)
 
 # Тестовое задание #
 
@@ -171,4 +171,4 @@
 Это путешествие займет у вас 40 минут.
 Теплоход отправляется в 12-00, а прибудет в 18-00.
 ```
-
+[Demo preview](https://nanammii.github.io/nevatrip-test/test)
